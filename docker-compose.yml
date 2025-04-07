@@ -32,6 +32,6 @@ services:
       - ./addons:/mnt/extra-addons
       - ./etc:/etc/odoo
       # - ./enterprise:/mnt/enterprise-addons
-      - ./enterprise-addons-costume:/mnt/enterprise-addons-costume
+      # - ./enterprise-addons-costume:/mnt/enterprise-addons-costume
     restart: always             # run as a service
     
