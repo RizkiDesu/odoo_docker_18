@@ -20,7 +20,7 @@ services:
       - "10018:8069"
       - "20018:8072" # live chat
     tty: true
-    command: --
+    command: --dev xml,reload
     environment:
       - HOST=db
       - USER=odoo
